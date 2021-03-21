@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smash That Mole!</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href='/style.css'>
+</head>
+<body>
+  <div class="top">
+    <button class="start">Start</button>
+    <button class="end"onClick="endGame()">End</button>
+    <p>
+    <select name="level" required class="game_level">
+      <option value="0" selected>Easy</option>
+      <option value="1">Medium</option>
+      <option value="2">Hard</option>
+    </select>
+    </p>
+    <h4>Highest Score : <span class="highestScore">0</span></h4>
+  </div>
+  <h1>Smash-That-Mole! <span class="score">0</span></h1>
+  <div class="game">
+    <div class="hole hole1">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole2">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole3">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole4">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+      <div class="mole"></div>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
